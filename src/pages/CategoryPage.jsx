@@ -25,13 +25,13 @@ const ProjectCard = React.memo(({ project, isMajor = false }) => (
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/90" />
             </div>
-            <div className={`relative z-20 h-full flex flex-col justify-between p-6 md:p-10 pointer-events-none bg-black/60 backdrop-blur-sm transition-colors duration-500 group-hover:bg-black/50 ${isMajor ? 'min-h-[500px] md:min-h-[600px]' : 'min-h-[400px] md:min-h-[450px]'}`}>
+            <div className={`relative z-20 h-full flex flex-col justify-between p-5 md:p-10 pointer-events-none bg-black/60 backdrop-blur-sm transition-colors duration-500 group-hover:bg-black/50 ${isMajor ? 'min-h-[350px] md:min-h-[600px]' : 'min-h-[280px] md:min-h-[450px]'}`}>
                 <div className={`${isMajor ? 'max-w-3xl' : ''}`}>
                     <span className="text-sm font-medium text-purple-300 mb-2 block uppercase tracking-wider drop-shadow-md">
                         {project.category}
                     </span>
-                    <h3 className={`${isMajor ? 'text-4xl md:text-6xl' : 'text-3xl'} font-bold mb-4 text-white drop-shadow-md`}>{project.title}</h3>
-                    <p className={`text-white/90 ${isMajor ? 'text-xl md:text-2xl' : 'text-lg'} leading-relaxed mb-4 drop-shadow-md`}>
+                    <h3 className={`${isMajor ? 'text-3xl md:text-6xl' : 'text-2xl md:text-3xl'} font-bold mb-4 text-white drop-shadow-md`}>{project.title}</h3>
+                    <p className={`text-white/90 ${isMajor ? 'text-lg md:text-2xl' : 'text-sm md:text-lg'} leading-relaxed mb-4 drop-shadow-md`}>
                         {project.description}
                     </p>
                 </div>

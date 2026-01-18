@@ -37,7 +37,7 @@ const Projects = () => {
                                     <Link key={slide.id} to={`/work/${slide.id}`} className="block w-fit">
                                         <TextStaggerHover
                                             index={index}
-                                            className="cursor-pointer text-2xl md:text-4xl font-bold uppercase tracking-tighter text-neutral-500 hover:text-white transition-colors duration-300"
+                                            className="cursor-pointer text-2xl md:text-4xl font-bold uppercase tracking-tighter text-neutral-300 md:text-neutral-500 hover:text-white animate-pulse md:animate-none transition-colors duration-300"
                                             text={slide.title}
                                         />
                                     </Link>

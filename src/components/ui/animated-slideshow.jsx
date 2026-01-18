@@ -65,6 +65,8 @@ export const TextStaggerHover = React.forwardRef(({ text, index, children, class
             {...props}
             ref={ref}
             onMouseEnter={handleMouse}
+            onTouchStart={handleMouse}
+            onClick={handleMouse}
         >
             {characters.map((char, index) => (
                 <span

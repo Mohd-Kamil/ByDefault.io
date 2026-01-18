@@ -28,7 +28,7 @@
         title: 'Vibify',
         category: 'Music',
         description: 'Vibify is a retro pixel-inspired music playlist suggestion app that blends nostalgic game aesthetics with modern music discovery, turning vibes and moods into an interactive, fun experience.',
-        longDescription: 'Vibify is a retro pixelΓÇôstyled music playlist suggestion experience that turns discovering music into a playful, interactive journey. Inspired by classic game aesthetics, the app blends nostalgic visuals with modern usability, creating an engaging environment where mood and sound connect effortlessly. Every interaction feels intentional from the pixel-perfect UI to the smooth flow that keeps users immersed. Vibify transforms playlist discovery into a vibe-driven experience, making music exploration feel less like scrolling and more like pressing Start on a classic game.',
+        longDescription: 'Vibify is a retro pixel music playlist suggestion experience that turns discovering music into a playful, interactive journey. Inspired by classic game aesthetics, the app blends nostalgic visuals with modern usability, creating an engaging environment where mood and sound connect effortlessly. Every interaction feels intentional from the pixel-perfect UI to the smooth flow that keeps users immersed. Vibify transforms playlist discovery into a vibe-driven experience, making music exploration feel less like scrolling and more like pressing Start on a classic game.',
         color: 'bg-green-900/20',
         themeColor: '#14532d',
         liveUrl: 'https://vibify-v1.netlify.app/',
