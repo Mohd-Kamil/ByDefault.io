@@ -4,7 +4,7 @@ import { Boxes } from "@/components/ui/background-boxes";
 import { BeamsBackground } from "@/components/ui/beams-background";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
-const words = ["UI/UX.", "Social Media Management.", "Content Creation.", "Web Applications.", "Websites.", "Mobile Apps.", "AI Solutions.", "Graphic Design.", "Logo Design.", "Brand Kit."];
+const words = ["UI/UX.", "Social Media.", "Content Creation.", "Web Applications.", "Websites.", "Mobile Apps.", "AI Solutions.", "Graphic Design.", "Logo Design.", "Brand Kit."];
 
 const Hero = () => {
     const [index, setIndex] = useState(0);
