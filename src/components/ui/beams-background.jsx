@@ -28,7 +28,7 @@ export function BeamsBackground({
     const canvasRef = useRef(null);
     const beamsRef = useRef([]);
     const animationFrameRef = useRef(0);
-    const MINIMUM_BEAMS = 20;
+    const MINIMUM_BEAMS = 15;
 
     const opacityMap = {
         subtle: 0.8,
@@ -120,7 +120,7 @@ export function BeamsBackground({
             if (!canvas || !ctx) return;
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.filter = "blur(35px)";
+            // ctx.filter = "blur(35px)"; // Removed for performance
 
             const totalBeams = beamsRef.current.length;
             beamsRef.current.forEach((beam, index) => {
@@ -158,7 +158,7 @@ export function BeamsBackground({
             <canvas
                 ref={canvasRef}
                 className="absolute inset-0 z-0"
-                style={{ filter: "blur(15px)" }}
+                style={{ filter: "blur(35px)", willChange: "transform" }}
             />
 
             <motion.div
