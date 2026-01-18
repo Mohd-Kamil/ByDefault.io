@@ -11,7 +11,7 @@ const SLIDES = [
     {
         id: "web",
         title: "Website Development",
-        imageUrl: "/Projects/2/Hero/ChatGPT Image Dec 20, 2025, 06_35_55 PM.png"
+        imageUrl: "/graphics/Ad Creatives/ChatGPT Image Jan 19, 2026, 01_17_14 AM.png"
     }
 ];
 

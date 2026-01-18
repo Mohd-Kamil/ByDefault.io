@@ -27,7 +27,7 @@ const ProjectCard = React.memo(({ project, isMajor = false }) => (
             </div>
             <div className={`relative z-20 h-full flex flex-col justify-between p-5 md:p-10 pointer-events-none bg-black/60 backdrop-blur-sm transition-colors duration-500 group-hover:bg-black/50 ${isMajor ? 'min-h-[350px] md:min-h-[600px]' : 'min-h-[280px] md:min-h-[450px]'}`}>
                 <div className={`${isMajor ? 'max-w-3xl' : ''}`}>
-                    <span className="text-sm font-medium text-purple-300 mb-2 block uppercase tracking-wider drop-shadow-md">
+                    <span className="text-sm font-medium text-neutral-400 mb-2 block uppercase tracking-wider drop-shadow-md">
                         {project.category}
                     </span>
                     <h3 className={`${isMajor ? 'text-3xl md:text-6xl' : 'text-2xl md:text-3xl'} font-bold mb-4 text-white drop-shadow-md`}>{project.title}</h3>

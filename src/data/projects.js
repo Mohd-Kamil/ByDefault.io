@@ -6,10 +6,10 @@
         title: 'Pixel Portfolio',
         category: 'Portfolio',
         description: 'A OS-inspired retro pixel portfolio that transforms personal work into an interactive experience, combining nostalgic visuals, playful UI elements, and modern design for a fun yet professional presentation.',
-        longDescription: 'A retro pixelΓÇôinspired interactive portfolio that feels like a classic video game brought to life. The experience blends nostalgic pixel art, game-style UI elements, and smooth animations with a clean, modern layout. Each section is designed like a playable level, guiding visitors through projects, skills, and creative work in an engaging and memorable way. The portfolio balances fun visuals with professional presentation, offering a responsive, immersive experience across desktop and mobile screens while showcasing creativity, attention to detail, and a strong sense of personal branding.',
+        longDescription: 'A retro pixel inspired interactive portfolio that feels like a classic video game brought to life. The experience blends nostalgic pixel art, game-style UI elements, and smooth animations with a clean, modern layout. Each section is designed like a playable level, guiding visitors through projects, skills, and creative work in an engaging and memorable way. The portfolio balances fun visuals with professional presentation, offering a responsive, immersive experience across desktop and mobile screens while showcasing creativity, attention to detail, and a strong sense of personal branding.',
 
         color: 'bg-purple-900/20',
-        themeColor: '#4c1d95',
+        themeColor: '#ffffffff',
         liveUrl: 'https://kamil-pixel-portfolio.netlify.app/',
         techStack: ['TypeScript', 'React', 'JavaScript', 'HTML', 'CSS', 'TailwindCSS', 'Framer Motion', 'Spline', 'Blender'],
         images: {
